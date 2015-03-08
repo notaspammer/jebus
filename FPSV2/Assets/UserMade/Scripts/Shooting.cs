@@ -19,23 +19,20 @@ public class Shooting : MonoBehaviour {
 	bool canFire = true;
 
 
+
 	//information from weapon classes
 	public AudioClip fire;
 	public AudioClip reload;
-
-	public float fireRate = .5f;
-	
-	public float damage = 25f;
-
-	public int ammoCount = 25;
+	public float fireRate;
+	public float damage;
+	public int ammoCount;
 
 
 
 	void Start()
 	{
 		cooldownRemaining = 0;
-		//ammoCount = 25;
-		//getWeaponInformation(fire, reload, fireRate, damage, ammoCount);
+
 	}
 
 	void Update () 
@@ -57,6 +54,15 @@ public class Shooting : MonoBehaviour {
 		}
 	}
 
+	/*public virtual void getWeaponInfo(AudioClip fireGun, AudioClip reloadGun, float gunFireRate, float gunDamage, int gunAmmoCount)
+	{
+		fire = fireGun;
+		reload = reloadGun;
+		fireRate = gunFireRate;
+		damage = gunDamage;
+		ammoCount = gunAmmoCount;
+	}
+*/
 	void Fire()
 	{
 

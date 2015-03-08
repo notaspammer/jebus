@@ -179,6 +179,7 @@
      <Compile Include="Assets\Import\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\UserMade\Scripts\DecalLife.cs" />
      <Compile Include="Assets\UserMade\Scripts\Health.cs" />
+     <Compile Include="Assets\UserMade\Scripts\M4A1Info.cs" />
      <Compile Include="Assets\UserMade\Scripts\Shooting.cs" />
      <Compile Include="Assets\UserMade\Scripts\StartUp.cs" />
      <Compile Include="Assets\UserMade\Scripts\ToggleFlashLight.cs" />
