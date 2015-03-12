@@ -177,6 +177,7 @@
      <Compile Include="Assets\Import\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\Import\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\Import\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <Compile Include="Assets\UserMade\Scripts\BreakGlass.cs" />
      <Compile Include="Assets\UserMade\Scripts\DecalLife.cs" />
      <Compile Include="Assets\UserMade\Scripts\Health.cs" />
      <Compile Include="Assets\UserMade\Scripts\M4A1Info.cs" />
